@@ -1,0 +1,362 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+/* Home Page css */
+
+.body{
+    background-image: url(../images.Adm/meeting.jpeg);
+    background-size: cover;  
+    z-index: auto;
+}
+.fwords{
+    height: 200px;
+    width: 500px;
+    float: right;
+    top: 200px;
+    right: 150px;
+    position: absolute;
+    margin-top: 20px;
+}
+.words{
+    color: #fff;
+    font-size: larger;
+    
+}
+.cookies{
+    width: 1000px;
+    position:fixed;
+
+}
+.container{
+    width: 100%;
+    
+}
+.subcontainer{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(21, 56, 230);
+    color: #fff;
+}
+.cookies{
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.carosell{
+    border: 1px;
+    border-style: solid;
+    height: 200px;
+    background-image: url(../images.Adm/download\ \(1\).jpg);
+    background-size: contain;
+    border-radius: 3px;
+
+} 
+.aside-body{
+    border-style: solid;
+    height: 500px;
+    background-blend-mode: color;
+}
+.aside{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.form-main{
+    float: right;
+    position: absolute;
+    top: 340px;
+    left: 50%;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 450px;
+    width: 400px;
+    padding: 5px;
+    font-size:larger;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+
+     
+    
+}
+.fdiv{
+    text-align: center;
+}
+
+.div1{
+    border-color: rgb(247, 243, 243);
+    border-style: solid;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 30px; 
+    width: 300px;text-decoration: none;
+    color: rgb(230, 12, 12);
+    font-size: 28px;
+    
+    
+}
+.div2{
+    border-color: rgb(252, 248, 248);
+    border-style: solid;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 30px; 
+    width: 300px;
+    text-decoration: none;
+    color: rgb(230, 12, 12);
+    font-size: 28px;
+}
+.div3{
+    border-color: rgb(250, 249, 249);
+    border-style: solid;
+    border-radius: 3px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 30px; 
+    width: 300px;
+    text-decoration: none;
+    color: rgb(230, 12, 12);
+    font-size: 28px;
+}
+.div1:hover{
+    background-color: rgb(202, 228, 228); 
+     
+}
+.div2:hover{
+    background-color: rgb(195, 220, 220) ;
+}
+.div3:hover{
+    background-color: rgb(178, 209, 209) ;
+}
+
+
+/* Sign up form css */
+/* .form_body{
+    background-image: url(/ADMWebsite/images.Adm/download.jpeg);
+    background-size: cover;
+    
+
+}   */
+.form_main{
+    border: 1px;
+    border-style: solid;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 20%;
+    top: 40%;
+    left: 50%; 
+    position:absolute;
+    transform: translate(-50%,-50%); 
+    height: 300px;
+    width: 350px;   
+    border-radius: 5px;   
+    box-shadow: 0 0 9px rgba(244, 240, 240, 0.964);  
+    background-color: transparent;    
+}
+.fom_div{
+    text-align: center;
+    border-spacing: 10px; 
+}
+.form_header{
+    text-align: center;
+    font-size: larger;
+    color: blue;
+
+
+}
+.form_button{
+    color: #fff;;
+}
+.form_button:hover{
+    transition: rotate(330deg);
+     border-radius: 50px;
+     opacity: 5;}
+
+/* Login form css */
+
+  /* services css */
+.page{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0,0.4),rgba(0,0,0,0.5)),url(../images.Adm/download.jpe
+    );
+    background-position: center;
+    background-size: cover;
+   position: absolute;
+
+  }
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+  } 
+  .nav{
+    flex: 1;
+    text-align: right;
+  }
+  .nav ul{
+    display: inline-block;
+    list-style: none;
+  }
+  .nav ul li{
+    display: inline-block;
+    margin-right: 70px;
+    color: white;
+  }
+.nav ul li a{
+    text-decoration: none;
+
+}
+nav ul li button{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+
+}
+.nav ul li button:hover{
+    color: aqua;
+}
+nav ul li a:hover{
+    color: rgb(37, 91, 91);
+}  
+.a{
+    text-decoration: none;
+    color: rgb(230, 12, 12);
+    font-size: 28px;
+} 
+.h-button{
+    border: 5px;
+    border-style: groove;
+    height: 25px;
+    width: 50px;
+  
+    background-color: blue;
+   
+}
+.sev-tet-area{
+    border: 1px;
+    border-color: black;
+    border-style: solid;background-color: aqua;
+}
+.sev-dev{
+    text-decoration: none;
+    color: rgb(230, 12, 12);
+    font-size: 28px;
+    padding: 5px;
+
+}
+
+/* about us css */
+.aboout-div{
+    border: 1px;
+    border-style: solid;
+    background-color: rgb(151, 152, 131);
+}
+.push1{
+    border: 2px;
+    border-style:groove;
+    height: 300px;
+    width: 200px;
+    box-shadow:rgba(0,0,0,0.5);
+    
+
+}
+.top{
+    font-size: x-large;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 50px;}
+.about-div{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* blog-portfolio.html css */
+.sce1{
+    border: 1px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+
+}
+.blog-div1{
+    border: 2px;
+    border-style: groove;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    
+}
+.blog-div-img1{
+    border-bottom: 5px;
+}
+.blog-div2{
+    border: 2px;
+    border-style: groove;
+     height: 200px;
+    width: 300px; 
+}
+.blog-div3{
+    border: 2px;
+    border-style: groove;
+    height: 200px;
+    width: 300px; 
+
+}
+.sec2{
+    border: 1px;
+    border-style: groove;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sec3{
+    border: 1px;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(19, 23, 54);
+    border: 1px;
+    border-style: solid;
+    padding: 5px;
+    height: 200px;  
+    background: linear-gradient(to right,#000930,#040403);
+    width: 100%;
+    margin-bottom: 0%;
+}
+.h-button{
+    border: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    background-color: #f3ede9;
+    float: right;
+    margin-top: 80px;
+    margin-left: 500px;
+}
+.adm{
+    font:bolder;
+    color: rgb(224, 224, 238);
+    border: none; 
+    margin-top: 30px;
+    float: left;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.nav{
+    float:right;
+    top: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: rgb(230, 12, 12);
+    font-size: 28px;
+}
+.nav_oli{
+    margin: 50px;
+   
+   
+}
+.nav_oli:hover{
+    color: rgb(222, 17, 17);
+}
+
+
+
+
+
+/* footer part */
+.footer{
+    width: 100%;
+    color: #fff;
+    padding: 100px 0 30px;
+    background: linear-gradient(to right,#000930,#040403);
+    border-radius: 2px;
+    
+}
+.infooter_div{
+   width: 85%;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   row-gap: 5px;
+    
+}
+.mini_div1{
+    flex-basis: 15%;
+    padding: 10px;
+    float: left;
+
+}
+.mini_div2{
+    width: fit-content;
+    
+    
+}
+.mini_div3{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    
+}
+.fnav_ol{
+     text-decoration: none;
+    /* color: rgb(230, 12, 12);
+    font-size: 28px;  */
+}

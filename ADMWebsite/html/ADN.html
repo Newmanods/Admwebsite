@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADM CONSULT</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+       
+</head>
+<style>
+  *{
+    padding: 2px;
+    margin: 10px;
+  }
+    form{
+        border-style: groove; background-color: rgb(244, 244, 238);font-size: larger;color: black;
+        display: inline-block;
+      }
+        
+    head{
+      align-content: center;
+    }    
+</style>
+<body>
+    <form action="" class="form">
+      <section class="head" >
+        <img src="images/gcb image.png" alt="logo">
+      <h1 >ADN LOANS CONSULT</h1>
+      <h2>POBox 15</h2>
+      <h3>KSI-ASHANTI</h3>
+      </section>
+        <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" id="first_name" required>
+                
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name" id="last_name" required>
+                
+                <label for="date_of_birth">Date of Birth:</label>
+                <input type="date" name="date_of_birth" id="date_of_birth" required>
+                <label for="social_security_number">Social Security Number:</label>
+                <input type="text" name="social_security_number" id="social_security_number" required>
+                
+                <label for="phone_number">Contact Phone Number:</label>
+                <input type="tel" name="phone_number" id="phone_number" required>
+                
+                <label for="email_address">Email Address:</label>
+                <input type="email" name="email_address" id="email_address" required>
+                
+                <label for="loan_amount_requested">Loan Amount Requested:</label>
+                <input type="number" name="loan_amount_requested" id="loan_amount_requested" required>
+                
+                <label for="loan_purpose">Loan Purpose:</label>
+                <select name="loan_purpose" id="loan_purpose">
+                  <option value="debt_consolidation">Debt Consolidation</option>
+                  <option value="home_improvement">Home Improvement</option>
+                  <option value="other">Other</option>
+                </select>
+                
+                <label for="loan_type">Type of Loan:</label>
+                <select name="loan_type" id="loan_type">
+                  <option value="personal_loan">Personal Loan</option>
+                  <option value="auto_loan">Auto Loan</option>
+                  <option value="mortgage_loan">Mortgage Loan</option>
+                </select>
+                
+                <label for="employment_status">Employment Status:</label>
+                <select name="employment_status" id="employment_status">
+                  <option value="full_time">Full-time</option>
+                  <option value="part_time">Part-time</option>
+                  <option value="self_employed">Self-employed</option>
+                  <option value="unemployed">Unemployed</option>
+                </select>
+                
+                <label for="monthly_income">Monthly Income:</label>
+                <input type="number" name="monthly_income" id="monthly_income" required>
+                
+                <label for="credit_score">Credit Score:</label>
+                <input type="number" name="credit_score" id="credit_score">
+                
+                <label for="collateral">Collateral:</label>
+                <input type="text" name="collateral" id="collateral">
+                
+                <label for="how_did_you_hear">How Did You Hear About Us?</label>
+                <input type="text" name="how_did_you_hear" id="how_did_you_hear">
+                
+                <label for="comments">Comments or Questions:</label>
+                <textarea name="comments" id="comments" rows="5"></textarea>
+                
+                <label>
+                  <input type="checkbox" name="agreement" required>
+                  I agree to the terms and conditions
+                </label>
+    </form>
+</body>
+</html>
